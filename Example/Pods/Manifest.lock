@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - KIF (3.2.3):
+    - KIF/XCTest (= 3.2.3)
+  - KIF/XCTest (3.2.3)
+  - TTKeyboardphobia (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KIF
+  - TTKeyboardphobia (from `../`)
+
+EXTERNAL SOURCES:
+  TTKeyboardphobia:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  KIF: a94bffe9c97e449e44f8fa481c53243d21309e1e
+  TTKeyboardphobia: 8ffa8144244f7f1fea4e167438b9c1b298fcf0f7
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,6 @@
+framework module TTKeyboardphobia {
+  umbrella header "TTKeyboardphobia-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011B133E785B655F57A5FE578974DB1E /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E967D8D427B62C4B35BDBE49CAC0FC05 /* CGGeometry-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		0274B2D35BF4979CEC5C6E196CF8389E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473B27FB63ECEDF336EECC4A340F800 /* FBSnapshotTestCasePlatform.m */; };
+		06D54187DDC3B3968F85933E828531CA /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F9842C7BEC800E9B8E58C06772433166 /* KIFTestCase.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		1084B9B2D75412C67A58D08629DC53D4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C69303FDB90A2E552AF829BEA78B660 /* IOKit.framework */; };
+		11156A5097DF528224B49E7CA763F241 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3351A8A07EF323BDD3D058FAEF7E5EBA /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1206F2B61C8CD5F66EEF150ABCF0CFBF /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EC75D9ECE1310034E32E1577FC0FA017 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142A99F550356C7B7060E58044E55ECA /* Pods-TTKeyboardphobia_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE1BB00622F7968A903F25560E0F01 /* Pods-TTKeyboardphobia_Tests-dummy.m */; };
+		17363888857BC5FBB31AD7F138340C5A /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C76BADEC7C1767A80555DE8256D72EE6 /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		184316B3E291AE1B61FD0332B57589C4 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C99DD4B93BE5E7A9D3AF150A2A163B3 /* UIEvent+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		1888219459E7ABEEA22EFF68C50A7E07 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898796BE0E54287E08883B89678DDB38 /* FBSnapshotTestController.m */; };
+		201961D5B0A9F752D5594DA23FB462A9 /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = A631335E59F41F66CD7349A8E97AC7EB /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2230849A8E917BEC42E76291AC348CCF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8AC5ACA2F811F5E5080EE540DA6 /* ReplaceMe.m */; };
+		22AC1F3F5C118FA52E64AA41DA402277 /* Pods-TTKeyboardphobia_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E861ABBB53D5814A557BE05842BEF2 /* Pods-TTKeyboardphobia_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262E99376F793DA6E8623953E590CB26 /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F0D745D85E2C236D1EA47035DA29C /* UIAutomationHelper.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		2B099B268A8449A2368087D0201A1A70 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EBE2BA7A68E7D6F2E3966E2A1459A6 /* UIImage+Compare.m */; };
+		2BD41185748CCBA4C86529BE8B377000 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D515E614ECD0B8BB5EC2926DA556D3 /* FBSnapshotTestCase.m */; };
+		2D84F77359A801C63F65571941823FD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5432A147EBE374F17FEEDB8930B59DF /* XCTest.framework */; };
+		321CCECDECEA619062ABAD633B03614F /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F93F5EA9D2B51E17F6C6F62978986 /* KIFSystemTestActor.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		32A85ACC5ABDBB77AA4418C538E0C876 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E92E6BAAC90F25B6A9829F25999AF0 /* UIImage+Diff.m */; };
+		339AC2336F622051051E05EA100B66F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */; };
+		33E54B61F8752F676CE78AFA5EE90691 /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C47CB95D0C8D28B9D47D7EADEC9CA60 /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3449919770ED241CD3D22665E0FD6E8D /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = C37E3F9BCE1F6BF9123ACA5750A40D57 /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3B44B28F35EE74681F9F6B2A912ED3 /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE18A72868DA513EDFC40C5258DE977 /* UIView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		3BE945E9A6B83A8DD7198F03514E1B54 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE6B9B02DBB19D23826C6426BBFC7D /* NSException-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		3EF6EADEA67D078EB688A7C53DC4C448 /* TTKeyboardphobia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7809129353A0F4506CF3918412F7030 /* TTKeyboardphobia.bundle */; };
+		44EA929A8672016F48F76F2519B43FEB /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9148C16FB9B4522E3419FC74BD5C87F1 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48122712B367C488021E312FFD5C4512 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E1E322008CA16D3C3CC29FBF4D62ED /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DC2C1F5CE540228F1E196338D4F43A /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = A0749B1F4BE23843DDF8B824891AE2EE /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBBF81CE6526B3D6FB006C084C60432 /* Pods-TTKeyboardphobia_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F09E75EF834BADCF71E94A4C2DB2F /* Pods-TTKeyboardphobia_Example-dummy.m */; };
+		50A51E1964FD10C9E8EA80AAF899AA9F /* KIF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B10045AA29EBB3C473FDFD4A78A2AC /* KIF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513437754FED70F69CBBB5DD9B9E1795 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0018629853A73E74A0A0BC5DA5543164 /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5384CB8245DF25516BE5B61FFBCAEDEF /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F224E3267B3FEB0F3D782E0E8BDA7C /* KIFTestActor.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		53F4FC739FC81AB8201D0F3E3EF0B095 /* TTKeyboardphobia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1314784FF9BC437FCBE1ACBC862D6EE8 /* TTKeyboardphobia-dummy.m */; };
+		573851A15177C7E5BF200CE57E440280 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = F3197E0AB67A59532727DFF78F294E6A /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5148D5339558823FB2DABAE7822FEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5432A147EBE374F17FEEDB8930B59DF /* XCTest.framework */; };
+		5BCAD4D94F59688DD253260CC402D5CE /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC66F3525244E9F7992B78A265B4CC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9255B7DDCFD5529A93E3630870C9DC /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC3FC1E8E9A58396E73B734A81031C3 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6017FFB90CACCC9B242FB084D6AB6175 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EF4266CA8543332C306287988A4CF /* XCTestCase-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		63F2116B8E2C1F27642568FF189CD73F /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 61720AD0C668AEEF0962134DAC90D10F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B13B97934DF34FED44B558902445502 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDFFA7DE3714566D3E5DBB6FEC68B5D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7242F029D98F4C5B51277A1AF4E9AC98 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E92A8B1BDF9E9C7B4D92468C091678F5 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744BB7E949B4A270B87468D8DFBB5146 /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2425317F86FBEA4ADC6CB814B0DEE0 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D7FD63D2E878C10D4B209512540FC4 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A32B7FA6BB6000782508D1C347B8D27 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796862A26C2CBBEA7AD4FD31A96E3F52 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A0B83862B823AAF54A6C372B40FEE5 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB3C60E357ECA964313EF617264E9FF /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C4B236190DDCF14498075A6BB0957A /* KIFTypist.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		7D09217B0C2EA90BD91BA8AA0988D789 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038514246525269630F98ED9DEB1CFB /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA223B7FC665D54F7B45A0241CC9D11 /* Pods-TTKeyboardphobia_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5E5FB408DA38C818C896EAEAA4DC43 /* Pods-TTKeyboardphobia_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CDE942D4B4B861B808E2ECE24BF7D4 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9821AA6C0571B51A13BC3589DB192EBB /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FCFF63BDFF4368B27847E7A98A1EBB /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF28ECC42C01CD1A7B34614D38CCB4 /* UITableView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		86F42CF6319302F461318E6706471282 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AD15B62B5B51C19FC8650BF082799 /* SwiftSupport.swift */; };
+		90AD9EE58CA87D6F8689101C4DBA175F /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC40A8C739324615BE347044F4196D7 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C83671A2A6B964D75EE072B0004545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */; };
+		95BDD3E667E8518245CF6BB98C4616C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */; };
+		97598FB4A966D8D47B2E7B32C49284C5 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A89320A837CAD377F45A0F8A1EC0EEFF /* UIWindow-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		A45610FF33EC4D2CFBDCE58F8B772790 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E5F7EEE1A05658F3467116EDFD360D /* KIFUITestActor-ConditionalTests.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		A78E9DE6C57F53CF5AEF0690DC866F16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E49A63BCC30F9491502EA10EFCC692 /* CoreGraphics.framework */; };
+		B0170E06045EAD036A9DBE685343888D /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CCADEBF8430EC2C14345FE2F504F5 /* UIImage+Snapshot.m */; };
+		B4B6257F6B3D84C0DF6C783263610B94 /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 20702DA13F3F9B266DF179F4ACD14885 /* KIFTypist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BADAB3E48E8B9E8C957A4DAA6CAECF /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF8F63556595C0881EB23FE8AE91AD /* NSError-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		BCF5D267A430311A3078C3B0C41F944D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */; };
+		C0F0EB6D879AF0EAFE2A921BF57E4917 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFCED923C0FCA4568844A0B5A7D016 /* UIView-Debugging.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		C394179E39B0B704D274550D9D8F6FE0 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C597B44F147FE176F1DB1C5BB00B816 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40656A7AFD3989A73DE888172A52662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */; };
+		C4B43A277B99D30D08D7A8D86C983EE3 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB3BACE727B0ACACA3328C10D60B8EF /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C794DB2C2A43E566D468C309175818B6 /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFA16C0171585AA97600E4A73472F4 /* NSFileManager-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		C8E5EE68E0FFBEF0209FAC15AB1A6919 /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7B52DA80E6378DB23E850A74E463C /* NSBundle-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		CB40135215980D073D7CA7A5C4988690 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1049067B40AA7E079B2BE2612C3F994C /* UITouch-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		CBD525071B4E4534C04669FE164A6F20 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 169E768BE6A8E6134AFB9DB4DC0FDA45 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D148DC8D61D0A95127EC1EEF3D203DAE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9A305BDA2D930DEFBF39EF1A45369 /* FBSnapshotTestCase-dummy.m */; };
+		D87FFA6DB8189BEEB3F500E153ADFE92 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EE3387287BAEC63C66FA60F60F383A /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5496F97AE94EB821920F49ED62A750 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A608919EBF33B25F5BF12FEC002D1678 /* UIAccessibilityElement-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		DC7318911E9DC74BB812C8C35B9455BE /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 11350044BC92FE6A632E1FADB81A250E /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCE4A7C946FB14028DB71E4681DD0DCD /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E3362019BED927D3F77C22DA8BE57D /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15EFD090D91C95543EB47C45365AF75 /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D53C8BB7A31C42DF08E6C4DD869F8 /* UIApplication-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		E77441EA6B2D60E5C19CE73B15331060 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F041CBD1526F26E1E6ABC761EC143DED /* KIFTestStepValidation.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		EF0D1E156B80DCB80E6570528719590A /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62851D7187631D91BF3CB5541B08D794 /* KIFUITestActor.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		F06A0DA77659FDF68017E333B8909DF1 /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 455ABE75EC0B00D5EE4D6AEC57B5F07C /* KIF-dummy.m */; };
+		F1F1EC33C2524CC86CB4605C05C44FB2 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = A28AE41733DCDA32103C2768FE17DE23 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2FD0E424A98513772FC79D306B4771F /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174CE33CEAB1811C992F609F4BBA77F /* UIScrollView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
+		F40BD7DE23B25C0120E639B398E3C4D5 /* TTKeyboardphobia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EB1D83FFD428DC063469B0DDACE731 /* TTKeyboardphobia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C362E0ECED9AB2EE8960CEFD25E377 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 239ACD7EA06568A00E3C5F2B3A33680A /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF1DEFCF7964E159010BC9FE4D811B6 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1F8D7B32C4C18546AD397492A8AAAE /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0804D344E894360627020DA761C5B17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588C4E167F411033231F59E16043BA75;
+			remoteInfo = "TTKeyboardphobia-TTKeyboardphobia";
+		};
+		3DA78B03AC0F43DAAF22327CF4653D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98BB9F7C9E99F61D3002E5F8912034CF;
+			remoteInfo = TTKeyboardphobia;
+		};
+		8DEB9EF95B154553821ABE4E24D7CDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F0B75697E11568633D8239E46E26C06;
+			remoteInfo = KIF;
+		};
+		8ED08BC91960C413E6D4BE935CB7A9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E126D04DD81B5B4D47F1A4D0D71180C;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		FD272C0847F0BFDB248952ED44F31D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98BB9F7C9E99F61D3002E5F8912034CF;
+			remoteInfo = TTKeyboardphobia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0018629853A73E74A0A0BC5DA5543164 /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		002F09E75EF834BADCF71E94A4C2DB2F /* Pods-TTKeyboardphobia_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTKeyboardphobia_Example-dummy.m"; sourceTree = "<group>"; };
+		04EB1D83FFD428DC063469B0DDACE731 /* TTKeyboardphobia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTKeyboardphobia-umbrella.h"; sourceTree = "<group>"; };
+		072E6F279709E747C1471343029E1D25 /* Pods-TTKeyboardphobia_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTKeyboardphobia_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TTKeyboardphobia-Private.xcconfig"; sourceTree = "<group>"; };
+		1049067B40AA7E079B2BE2612C3F994C /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		11350044BC92FE6A632E1FADB81A250E /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		12EFA16C0171585AA97600E4A73472F4 /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		1314784FF9BC437FCBE1ACBC862D6EE8 /* TTKeyboardphobia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTKeyboardphobia-dummy.m"; sourceTree = "<group>"; };
+		13BE6B9B02DBB19D23826C6426BBFC7D /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		169E768BE6A8E6134AFB9DB4DC0FDA45 /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
+		17B10045AA29EBB3C473FDFD4A78A2AC /* KIF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-umbrella.h"; sourceTree = "<group>"; };
+		1944A15E51278198C3E7A161E282335F /* Pods-TTKeyboardphobia_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTKeyboardphobia_Tests-resources.sh"; sourceTree = "<group>"; };
+		1C5E5FB408DA38C818C896EAEAA4DC43 /* Pods-TTKeyboardphobia_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTKeyboardphobia_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D9EF4266CA8543332C306287988A4CF /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
+		1E2425317F86FBEA4ADC6CB814B0DEE0 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
+		1FBA94B1CFC8D16FBC6C980950F1A98C /* TTKeyboardphobia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTKeyboardphobia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20702DA13F3F9B266DF179F4ACD14885 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
+		239ACD7EA06568A00E3C5F2B3A33680A /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
+		2ADC66F3525244E9F7992B78A265B4CC /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		2BCF8F63556595C0881EB23FE8AE91AD /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
+		3174CE33CEAB1811C992F609F4BBA77F /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		32F753994CA754389F58F878F85DB02D /* TTKeyboardphobia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTKeyboardphobia-prefix.pch"; sourceTree = "<group>"; };
+		3351A8A07EF323BDD3D058FAEF7E5EBA /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		369B75D331FA81FA3CE2B3DF3284534D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC40A8C739324615BE347044F4196D7 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
+		3B26ACC3122B4567C4F4C6DE5799FDEA /* Pods-TTKeyboardphobia_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTKeyboardphobia_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44D0C08C227462CE39ADDEE302F21FD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45000728709D06F3424CBB2CDF56A8B3 /* Pods-TTKeyboardphobia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTKeyboardphobia_Example.release.xcconfig"; sourceTree = "<group>"; };
+		455ABE75EC0B00D5EE4D6AEC57B5F07C /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
+		49B7B52DA80E6378DB23E850A74E463C /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
+		4C597B44F147FE176F1DB1C5BB00B816 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
+		4D5059F758B881D8E807E85CE61AEF9F /* Pods-TTKeyboardphobia_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTKeyboardphobia_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E3BD8AC5ACA2F811F5E5080EE540DA6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5038514246525269630F98ED9DEB1CFB /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		5441217CD9521A76F4A7C32540A96F83 /* Pods-TTKeyboardphobia_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTKeyboardphobia_Example-resources.sh"; sourceTree = "<group>"; };
+		564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5731A9FE31B4F7E269F3E46977D0FE4B /* Pods_TTKeyboardphobia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTKeyboardphobia_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C47CB95D0C8D28B9D47D7EADEC9CA60 /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
+		5C69303FDB90A2E552AF829BEA78B660 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C99DD4B93BE5E7A9D3AF150A2A163B3 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		5F1F8D7B32C4C18546AD397492A8AAAE /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		61720AD0C668AEEF0962134DAC90D10F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		62851D7187631D91BF3CB5541B08D794 /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
+		65E861ABBB53D5814A557BE05842BEF2 /* Pods-TTKeyboardphobia_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTKeyboardphobia_Example-umbrella.h"; sourceTree = "<group>"; };
+		68D515E614ECD0B8BB5EC2926DA556D3 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		6A32B7FA6BB6000782508D1C347B8D27 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		6CB35B4B8540873069CDC9A8E82EFD2A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E1E322008CA16D3C3CC29FBF4D62ED /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		78AA1B8843E582448B9519D7777945DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2AA9FFA44B59B5D3EEC1F596B3BA9B /* Pods-TTKeyboardphobia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTKeyboardphobia_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DDFFA7DE3714566D3E5DBB6FEC68B5D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		80C9A305BDA2D930DEFBF39EF1A45369 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		8473B27FB63ECEDF336EECC4A340F800 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		86E5F7EEE1A05658F3467116EDFD360D /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
+		88CEE8F67F555A94991D8B1DDF2BF478 /* KIF-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KIF-Private.xcconfig"; sourceTree = "<group>"; };
+		898796BE0E54287E08883B89678DDB38 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		89F224E3267B3FEB0F3D782E0E8BDA7C /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
+		9148C16FB9B4522E3419FC74BD5C87F1 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
+		9821AA6C0571B51A13BC3589DB192EBB /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
+		98EE3387287BAEC63C66FA60F60F383A /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		9969FA10535A542AF1195D3397BDA72F /* Pods-TTKeyboardphobia_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTKeyboardphobia_Example.modulemap"; sourceTree = "<group>"; };
+		9DFEA7E483F71219F81103313F11AE6D /* TTKeyboardphobia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTKeyboardphobia.modulemap; sourceTree = "<group>"; };
+		9FA9EC268A2E2D26B269421836694CCB /* Pods-TTKeyboardphobia_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTKeyboardphobia_Tests.modulemap"; sourceTree = "<group>"; };
+		9FB3BACE727B0ACACA3328C10D60B8EF /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		A0749B1F4BE23843DDF8B824891AE2EE /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
+		A28AE41733DCDA32103C2768FE17DE23 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		A3E5EBD80C7A3BCA5FB6B3B67FD02CA3 /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
+		A3EBE2BA7A68E7D6F2E3966E2A1459A6 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		A53F0D745D85E2C236D1EA47035DA29C /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
+		A5A0B83862B823AAF54A6C372B40FEE5 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
+		A608919EBF33B25F5BF12FEC002D1678 /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		A631335E59F41F66CD7349A8E97AC7EB /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
+		A89320A837CAD377F45A0F8A1EC0EEFF /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		AAA513774CDB2024C3AE67DBF9AAD38D /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
+		AD7A913E3F6A1298E701B24558FCEECD /* Pods_TTKeyboardphobia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTKeyboardphobia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8D1F59720C1DF819CB01F9C7FD9942 /* Pods-TTKeyboardphobia_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTKeyboardphobia_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AEBE4CDEA4AE01D19653D75FA49F7623 /* KIF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KIF.modulemap; sourceTree = "<group>"; };
+		B0BF28ECC42C01CD1A7B34614D38CCB4 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
+		B0E49A63BCC30F9491502EA10EFCC692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B41F7FEEEFF69BD9CA06ADEA4152BB74 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		B6F02B6F698E52024A65E53EF81EE8E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EE1BB00622F7968A903F25560E0F01 /* Pods-TTKeyboardphobia_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTKeyboardphobia_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC3FC1E8E9A58396E73B734A81031C3 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		BC6CCADEBF8430EC2C14345FE2F504F5 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		C2AFCED923C0FCA4568844A0B5A7D016 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
+		C37E3F9BCE1F6BF9123ACA5750A40D57 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
+		C5432A147EBE374F17FEEDB8930B59DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C76BADEC7C1767A80555DE8256D72EE6 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
+		C842412967FF65A10FA1535757D78948 /* TTKeyboardphobia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTKeyboardphobia.xcconfig; sourceTree = "<group>"; };
+		CD0C48EDB58DA2A50B5294A30FCA7351 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		CD4AD15B62B5B51C19FC8650BF082799 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D151A483CAE13383D2ECE6180594BD95 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D4E92E6BAAC90F25B6A9829F25999AF0 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		DAF688C8F2860902C5F3B3B6A3B7C08E /* Pods-TTKeyboardphobia_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTKeyboardphobia_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCC0F8CEEA0FE887FBF0DD616B064F30 /* Pods-TTKeyboardphobia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTKeyboardphobia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE18A72868DA513EDFC40C5258DE977 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		E30F83FFA69725D132F2C8D4B4293332 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7809129353A0F4506CF3918412F7030 /* TTKeyboardphobia.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTKeyboardphobia.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92A8B1BDF9E9C7B4D92468C091678F5 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E967D8D427B62C4B35BDBE49CAC0FC05 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		EC4E5C5342FDC492689C20888F7648D7 /* Pods-TTKeyboardphobia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTKeyboardphobia_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC75D9ECE1310034E32E1577FC0FA017 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		ECBAD897CD899B0BD245B03BA6AD2979 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		EE6D53C8BB7A31C42DF08E6C4DD869F8 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		F041CBD1526F26E1E6ABC761EC143DED /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
+		F1C4B236190DDCF14498075A6BB0957A /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
+		F3197E0AB67A59532727DFF78F294E6A /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		F6D7859AFF888F96D266A31E7058D81B /* Pods-TTKeyboardphobia_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTKeyboardphobia_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6DF5D0DC5FCAD7C257A9D0FB4E21122 /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E3362019BED927D3F77C22DA8BE57D /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		F9842C7BEC800E9B8E58C06772433166 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
+		FE2F93F5EA9D2B51E17F6C6F62978986 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C934DE4F74584441F7234911D137A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E9DE6C57F53CF5AEF0690DC866F16 /* CoreGraphics.framework in Frameworks */,
+				BCF5D267A430311A3078C3B0C41F944D /* Foundation.framework in Frameworks */,
+				1084B9B2D75412C67A58D08629DC53D4 /* IOKit.framework in Frameworks */,
+				2D84F77359A801C63F65571941823FD9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE1D357FD61B8B17EA4F0C0F15A523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40656A7AFD3989A73DE888172A52662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620A969EDA10E6FD6D36F330467BCACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BDD3E667E8518245CF6BB98C4616C4 /* Foundation.framework in Frameworks */,
+				5B5148D5339558823FB2DABAE7822FEA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E6F25AAC24709FDB2406801BA5A25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B90B8523D73B94666741ECCC7877A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339AC2336F622051051E05EA100B66F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB2914961C262E52E76D43D538565F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C83671A2A6B964D75EE072B0004545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04664BDC8B77BC66D2F06AF76DCE2D2F /* Pods-TTKeyboardphobia_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6F02B6F698E52024A65E53EF81EE8E2 /* Info.plist */,
+				9969FA10535A542AF1195D3397BDA72F /* Pods-TTKeyboardphobia_Example.modulemap */,
+				3B26ACC3122B4567C4F4C6DE5799FDEA /* Pods-TTKeyboardphobia_Example-acknowledgements.markdown */,
+				DAF688C8F2860902C5F3B3B6A3B7C08E /* Pods-TTKeyboardphobia_Example-acknowledgements.plist */,
+				002F09E75EF834BADCF71E94A4C2DB2F /* Pods-TTKeyboardphobia_Example-dummy.m */,
+				AD8D1F59720C1DF819CB01F9C7FD9942 /* Pods-TTKeyboardphobia_Example-frameworks.sh */,
+				5441217CD9521A76F4A7C32540A96F83 /* Pods-TTKeyboardphobia_Example-resources.sh */,
+				65E861ABBB53D5814A557BE05842BEF2 /* Pods-TTKeyboardphobia_Example-umbrella.h */,
+				EC4E5C5342FDC492689C20888F7648D7 /* Pods-TTKeyboardphobia_Example.debug.xcconfig */,
+				45000728709D06F3424CBB2CDF56A8B3 /* Pods-TTKeyboardphobia_Example.release.xcconfig */,
+			);
+			name = "Pods-TTKeyboardphobia_Example";
+			path = "Target Support Files/Pods-TTKeyboardphobia_Example";
+			sourceTree = "<group>";
+		};
+		06E007E9E08010B42907566A7685553C /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CD4AD15B62B5B51C19FC8650BF082799 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		0AB41916AC3B7ADDAAEAB9D6BEE1424F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBAD897CD899B0BD245B03BA6AD2979 /* FBSnapshotTestCase.modulemap */,
+				B41F7FEEEFF69BD9CA06ADEA4152BB74 /* FBSnapshotTestCase.xcconfig */,
+				CD0C48EDB58DA2A50B5294A30FCA7351 /* FBSnapshotTestCase-Private.xcconfig */,
+				80C9A305BDA2D930DEFBF39EF1A45369 /* FBSnapshotTestCase-dummy.m */,
+				D151A483CAE13383D2ECE6180594BD95 /* FBSnapshotTestCase-prefix.pch */,
+				7DDFFA7DE3714566D3E5DBB6FEC68B5D /* FBSnapshotTestCase-umbrella.h */,
+				E30F83FFA69725D132F2C8D4B4293332 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		10DFC49DB57927CF2FC8D62C90E91905 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AA1B8843E582448B9519D7777945DE /* Info.plist */,
+				9DFEA7E483F71219F81103313F11AE6D /* TTKeyboardphobia.modulemap */,
+				C842412967FF65A10FA1535757D78948 /* TTKeyboardphobia.xcconfig */,
+				0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */,
+				1314784FF9BC437FCBE1ACBC862D6EE8 /* TTKeyboardphobia-dummy.m */,
+				32F753994CA754389F58F878F85DB02D /* TTKeyboardphobia-prefix.pch */,
+				04EB1D83FFD428DC063469B0DDACE731 /* TTKeyboardphobia-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTKeyboardphobia";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D02674543F70094D4B6E5A64B45CB2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F9D41B8A03291394DFC8F1559C3A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				594F101C87E88C7C03FAFABE43D68E3D /* FBSnapshotTestCase */,
+				7CAACC66B7D3B22517057964D83C784F /* KIF */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3793F0D0A3E9984BA5FFA4A395F76D5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B108B898146D4F4BBC1AE5B4D7E9B11 /* TTKeyboardphobia */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3850009ABFD3F1E13B297483B0F5F843 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7566DEF106A4F9F016D184E39E419331 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		594F101C87E88C7C03FAFABE43D68E3D /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC4A5805245DD04CE3626E2706F2CC /* Core */,
+				0AB41916AC3B7ADDAAEAB9D6BEE1424F /* Support Files */,
+				06E007E9E08010B42907566A7685553C /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		5B108B898146D4F4BBC1AE5B4D7E9B11 /* TTKeyboardphobia */ = {
+			isa = PBXGroup;
+			children = (
+				3850009ABFD3F1E13B297483B0F5F843 /* Pod */,
+				10DFC49DB57927CF2FC8D62C90E91905 /* Support Files */,
+			);
+			name = TTKeyboardphobia;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71D02674543F70094D4B6E5A64B45CB2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0E49A63BCC30F9491502EA10EFCC692 /* CoreGraphics.framework */,
+				564375DDFA5F2D4C0FF57F7BD0896398 /* Foundation.framework */,
+				5C69303FDB90A2E552AF829BEA78B660 /* IOKit.framework */,
+				C5432A147EBE374F17FEEDB8930B59DF /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7566DEF106A4F9F016D184E39E419331 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E3BD8AC5ACA2F811F5E5080EE540DA6 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7CAACC66B7D3B22517057964D83C784F /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				D1D91560A755E5E892E02520B8FC7909 /* Support Files */,
+				D18E269456233F53A4209E80D6EC7D6E /* XCTest */,
+			);
+			path = KIF;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3793F0D0A3E9984BA5FFA4A395F76D5D /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				28F9D41B8A03291394DFC8F1559C3A22 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D0729EA16FC805B45ECD68FC23158DD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9051BFF88A87D69A6ADE06B3DFE89E84 /* Pods-TTKeyboardphobia_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				369B75D331FA81FA3CE2B3DF3284534D /* Info.plist */,
+				9FA9EC268A2E2D26B269421836694CCB /* Pods-TTKeyboardphobia_Tests.modulemap */,
+				4D5059F758B881D8E807E85CE61AEF9F /* Pods-TTKeyboardphobia_Tests-acknowledgements.markdown */,
+				F6D7859AFF888F96D266A31E7058D81B /* Pods-TTKeyboardphobia_Tests-acknowledgements.plist */,
+				B7EE1BB00622F7968A903F25560E0F01 /* Pods-TTKeyboardphobia_Tests-dummy.m */,
+				072E6F279709E747C1471343029E1D25 /* Pods-TTKeyboardphobia_Tests-frameworks.sh */,
+				1944A15E51278198C3E7A161E282335F /* Pods-TTKeyboardphobia_Tests-resources.sh */,
+				1C5E5FB408DA38C818C896EAEAA4DC43 /* Pods-TTKeyboardphobia_Tests-umbrella.h */,
+				DCC0F8CEEA0FE887FBF0DD616B064F30 /* Pods-TTKeyboardphobia_Tests.debug.xcconfig */,
+				7D2AA9FFA44B59B5D3EEC1F596B3BA9B /* Pods-TTKeyboardphobia_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTKeyboardphobia_Tests";
+			path = "Target Support Files/Pods-TTKeyboardphobia_Tests";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB35B4B8540873069CDC9A8E82EFD2A /* FBSnapshotTestCase.framework */,
+				F6DF5D0DC5FCAD7C257A9D0FB4E21122 /* KIF.framework */,
+				AD7A913E3F6A1298E701B24558FCEECD /* Pods_TTKeyboardphobia_Example.framework */,
+				5731A9FE31B4F7E269F3E46977D0FE4B /* Pods_TTKeyboardphobia_Tests.framework */,
+				E7809129353A0F4506CF3918412F7030 /* TTKeyboardphobia.bundle */,
+				1FBA94B1CFC8D16FBC6C980950F1A98C /* TTKeyboardphobia.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0729EA16FC805B45ECD68FC23158DD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04664BDC8B77BC66D2F06AF76DCE2D2F /* Pods-TTKeyboardphobia_Example */,
+				9051BFF88A87D69A6ADE06B3DFE89E84 /* Pods-TTKeyboardphobia_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D18E269456233F53A4209E80D6EC7D6E /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				98EE3387287BAEC63C66FA60F60F383A /* CGGeometry-KIFAdditions.h */,
+				E967D8D427B62C4B35BDBE49CAC0FC05 /* CGGeometry-KIFAdditions.m */,
+				169E768BE6A8E6134AFB9DB4DC0FDA45 /* KIF.h */,
+				C37E3F9BCE1F6BF9123ACA5750A40D57 /* KIFSystemTestActor.h */,
+				FE2F93F5EA9D2B51E17F6C6F62978986 /* KIFSystemTestActor.m */,
+				9148C16FB9B4522E3419FC74BD5C87F1 /* KIFTestActor.h */,
+				89F224E3267B3FEB0F3D782E0E8BDA7C /* KIFTestActor.m */,
+				A5A0B83862B823AAF54A6C372B40FEE5 /* KIFTestCase.h */,
+				F9842C7BEC800E9B8E58C06772433166 /* KIFTestCase.m */,
+				A0749B1F4BE23843DDF8B824891AE2EE /* KIFTestStepValidation.h */,
+				F041CBD1526F26E1E6ABC761EC143DED /* KIFTestStepValidation.m */,
+				20702DA13F3F9B266DF179F4ACD14885 /* KIFTypist.h */,
+				F1C4B236190DDCF14498075A6BB0957A /* KIFTypist.m */,
+				1E2425317F86FBEA4ADC6CB814B0DEE0 /* KIFUITestActor.h */,
+				62851D7187631D91BF3CB5541B08D794 /* KIFUITestActor.m */,
+				A631335E59F41F66CD7349A8E97AC7EB /* KIFUITestActor-ConditionalTests.h */,
+				86E5F7EEE1A05658F3467116EDFD360D /* KIFUITestActor-ConditionalTests.m */,
+				11350044BC92FE6A632E1FADB81A250E /* LoadableCategory.h */,
+				C76BADEC7C1767A80555DE8256D72EE6 /* NSBundle-KIFAdditions.h */,
+				49B7B52DA80E6378DB23E850A74E463C /* NSBundle-KIFAdditions.m */,
+				239ACD7EA06568A00E3C5F2B3A33680A /* NSError-KIFAdditions.h */,
+				2BCF8F63556595C0881EB23FE8AE91AD /* NSError-KIFAdditions.m */,
+				5C47CB95D0C8D28B9D47D7EADEC9CA60 /* NSException-KIFAdditions.h */,
+				13BE6B9B02DBB19D23826C6426BBFC7D /* NSException-KIFAdditions.m */,
+				5038514246525269630F98ED9DEB1CFB /* NSFileManager-KIFAdditions.h */,
+				12EFA16C0171585AA97600E4A73472F4 /* NSFileManager-KIFAdditions.m */,
+				76E1E322008CA16D3C3CC29FBF4D62ED /* UIAccessibilityElement-KIFAdditions.h */,
+				A608919EBF33B25F5BF12FEC002D1678 /* UIAccessibilityElement-KIFAdditions.m */,
+				0018629853A73E74A0A0BC5DA5543164 /* UIApplication-KIFAdditions.h */,
+				EE6D53C8BB7A31C42DF08E6C4DD869F8 /* UIApplication-KIFAdditions.m */,
+				4C597B44F147FE176F1DB1C5BB00B816 /* UIAutomationHelper.h */,
+				A53F0D745D85E2C236D1EA47035DA29C /* UIAutomationHelper.m */,
+				3351A8A07EF323BDD3D058FAEF7E5EBA /* UIEvent+KIFAdditions.h */,
+				5C99DD4B93BE5E7A9D3AF150A2A163B3 /* UIEvent+KIFAdditions.m */,
+				5F1F8D7B32C4C18546AD397492A8AAAE /* UIScrollView-KIFAdditions.h */,
+				3174CE33CEAB1811C992F609F4BBA77F /* UIScrollView-KIFAdditions.m */,
+				BAC3FC1E8E9A58396E73B734A81031C3 /* UITableView-KIFAdditions.h */,
+				B0BF28ECC42C01CD1A7B34614D38CCB4 /* UITableView-KIFAdditions.m */,
+				F8E3362019BED927D3F77C22DA8BE57D /* UITouch-KIFAdditions.h */,
+				1049067B40AA7E079B2BE2612C3F994C /* UITouch-KIFAdditions.m */,
+				9821AA6C0571B51A13BC3589DB192EBB /* UIView-Debugging.h */,
+				C2AFCED923C0FCA4568844A0B5A7D016 /* UIView-Debugging.m */,
+				9FB3BACE727B0ACACA3328C10D60B8EF /* UIView-KIFAdditions.h */,
+				DFE18A72868DA513EDFC40C5258DE977 /* UIView-KIFAdditions.m */,
+				6A32B7FA6BB6000782508D1C347B8D27 /* UIWindow-KIFAdditions.h */,
+				A89320A837CAD377F45A0F8A1EC0EEFF /* UIWindow-KIFAdditions.m */,
+				3AC40A8C739324615BE347044F4196D7 /* XCTestCase-KIFAdditions.h */,
+				1D9EF4266CA8543332C306287988A4CF /* XCTestCase-KIFAdditions.m */,
+			);
+			name = XCTest;
+			sourceTree = "<group>";
+		};
+		D1D91560A755E5E892E02520B8FC7909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D0C08C227462CE39ADDEE302F21FD5 /* Info.plist */,
+				AEBE4CDEA4AE01D19653D75FA49F7623 /* KIF.modulemap */,
+				AAA513774CDB2024C3AE67DBF9AAD38D /* KIF.xcconfig */,
+				88CEE8F67F555A94991D8B1DDF2BF478 /* KIF-Private.xcconfig */,
+				455ABE75EC0B00D5EE4D6AEC57B5F07C /* KIF-dummy.m */,
+				A3E5EBD80C7A3BCA5FB6B3B67FD02CA3 /* KIF-prefix.pch */,
+				17B10045AA29EBB3C473FDFD4A78A2AC /* KIF-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KIF";
+			sourceTree = "<group>";
+		};
+		FDCC4A5805245DD04CE3626E2706F2CC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC66F3525244E9F7992B78A265B4CC /* FBSnapshotTestCase.h */,
+				68D515E614ECD0B8BB5EC2926DA556D3 /* FBSnapshotTestCase.m */,
+				F3197E0AB67A59532727DFF78F294E6A /* FBSnapshotTestCasePlatform.h */,
+				8473B27FB63ECEDF336EECC4A340F800 /* FBSnapshotTestCasePlatform.m */,
+				A28AE41733DCDA32103C2768FE17DE23 /* FBSnapshotTestController.h */,
+				898796BE0E54287E08883B89678DDB38 /* FBSnapshotTestController.m */,
+				61720AD0C668AEEF0962134DAC90D10F /* UIImage+Compare.h */,
+				A3EBE2BA7A68E7D6F2E3966E2A1459A6 /* UIImage+Compare.m */,
+				E92A8B1BDF9E9C7B4D92468C091678F5 /* UIImage+Diff.h */,
+				D4E92E6BAAC90F25B6A9829F25999AF0 /* UIImage+Diff.m */,
+				EC75D9ECE1310034E32E1577FC0FA017 /* UIImage+Snapshot.h */,
+				BC6CCADEBF8430EC2C14345FE2F504F5 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		039762999973AC3A2AEE6FE6D3A8DA12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AC1F3F5C118FA52E64AA41DA402277 /* Pods-TTKeyboardphobia_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD03ABD12E86158185B0F765551C472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87FFA6DB8189BEEB3F500E153ADFE92 /* CGGeometry-KIFAdditions.h in Headers */,
+				50A51E1964FD10C9E8EA80AAF899AA9F /* KIF-umbrella.h in Headers */,
+				CBD525071B4E4534C04669FE164A6F20 /* KIF.h in Headers */,
+				3449919770ED241CD3D22665E0FD6E8D /* KIFSystemTestActor.h in Headers */,
+				44EA929A8672016F48F76F2519B43FEB /* KIFTestActor.h in Headers */,
+				796862A26C2CBBEA7AD4FD31A96E3F52 /* KIFTestCase.h in Headers */,
+				49DC2C1F5CE540228F1E196338D4F43A /* KIFTestStepValidation.h in Headers */,
+				B4B6257F6B3D84C0DF6C783263610B94 /* KIFTypist.h in Headers */,
+				201961D5B0A9F752D5594DA23FB462A9 /* KIFUITestActor-ConditionalTests.h in Headers */,
+				744BB7E949B4A270B87468D8DFBB5146 /* KIFUITestActor.h in Headers */,
+				DC7318911E9DC74BB812C8C35B9455BE /* LoadableCategory.h in Headers */,
+				17363888857BC5FBB31AD7F138340C5A /* NSBundle-KIFAdditions.h in Headers */,
+				F4C362E0ECED9AB2EE8960CEFD25E377 /* NSError-KIFAdditions.h in Headers */,
+				33E54B61F8752F676CE78AFA5EE90691 /* NSException-KIFAdditions.h in Headers */,
+				7D09217B0C2EA90BD91BA8AA0988D789 /* NSFileManager-KIFAdditions.h in Headers */,
+				48122712B367C488021E312FFD5C4512 /* UIAccessibilityElement-KIFAdditions.h in Headers */,
+				513437754FED70F69CBBB5DD9B9E1795 /* UIApplication-KIFAdditions.h in Headers */,
+				C394179E39B0B704D274550D9D8F6FE0 /* UIAutomationHelper.h in Headers */,
+				11156A5097DF528224B49E7CA763F241 /* UIEvent+KIFAdditions.h in Headers */,
+				FAF1DEFCF7964E159010BC9FE4D811B6 /* UIScrollView-KIFAdditions.h in Headers */,
+				5C9255B7DDCFD5529A93E3630870C9DC /* UITableView-KIFAdditions.h in Headers */,
+				DCE4A7C946FB14028DB71E4681DD0DCD /* UITouch-KIFAdditions.h in Headers */,
+				80CDE942D4B4B861B808E2ECE24BF7D4 /* UIView-Debugging.h in Headers */,
+				C4B43A277B99D30D08D7A8D86C983EE3 /* UIView-KIFAdditions.h in Headers */,
+				77D7FD63D2E878C10D4B209512540FC4 /* UIWindow-KIFAdditions.h in Headers */,
+				90AD9EE58CA87D6F8689101C4DBA175F /* XCTestCase-KIFAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37A34DE57851C8F3E20055518E260F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40BD7DE23B25C0120E639B398E3C4D5 /* TTKeyboardphobia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E025DC4A9A53386595B24EBB857E7185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA223B7FC665D54F7B45A0241CC9D11 /* Pods-TTKeyboardphobia_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22BE2062A046DAF6C3AF0D7112DC99D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B13B97934DF34FED44B558902445502 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				5BCAD4D94F59688DD253260CC402D5CE /* FBSnapshotTestCase.h in Headers */,
+				573851A15177C7E5BF200CE57E440280 /* FBSnapshotTestCasePlatform.h in Headers */,
+				F1F1EC33C2524CC86CB4605C05C44FB2 /* FBSnapshotTestController.h in Headers */,
+				63F2116B8E2C1F27642568FF189CD73F /* UIImage+Compare.h in Headers */,
+				7242F029D98F4C5B51277A1AF4E9AC98 /* UIImage+Diff.h in Headers */,
+				1206F2B61C8CD5F66EEF150ABCF0CFBF /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		588C4E167F411033231F59E16043BA75 /* TTKeyboardphobia-TTKeyboardphobia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264F591BDFD5AFF50A6540D52EFD0D84 /* Build configuration list for PBXNativeTarget "TTKeyboardphobia-TTKeyboardphobia" */;
+			buildPhases = (
+				DF1E529C7B39EEF87F8B290A4BF4D726 /* Sources */,
+				91E6F25AAC24709FDB2406801BA5A25F /* Frameworks */,
+				A7574F4A1E8A4488E357AAE5B2F9B088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTKeyboardphobia-TTKeyboardphobia";
+			productName = "TTKeyboardphobia-TTKeyboardphobia";
+			productReference = E7809129353A0F4506CF3918412F7030 /* TTKeyboardphobia.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5E126D04DD81B5B4D47F1A4D0D71180C /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8BB323DAB71F60D76748F4B5ACAAA9D /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				9AEA7E87D4DE9D891011A4F1324EE685 /* Sources */,
+				620A969EDA10E6FD6D36F330467BCACB /* Frameworks */,
+				F22BE2062A046DAF6C3AF0D7112DC99D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 6CB35B4B8540873069CDC9A8E82EFD2A /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F0B75697E11568633D8239E46E26C06 /* KIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5709F6BFE37F035269D7F4D2D55A75 /* Build configuration list for PBXNativeTarget "KIF" */;
+			buildPhases = (
+				B9C3D6A6BD141C14A597975037A0F881 /* Sources */,
+				40C934DE4F74584441F7234911D137A7 /* Frameworks */,
+				1BD03ABD12E86158185B0F765551C472 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIF;
+			productName = KIF;
+			productReference = F6DF5D0DC5FCAD7C257A9D0FB4E21122 /* KIF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98BB9F7C9E99F61D3002E5F8912034CF /* TTKeyboardphobia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E69FF026DF7F39A776EBA8D870C9D /* Build configuration list for PBXNativeTarget "TTKeyboardphobia" */;
+			buildPhases = (
+				597865DBA3C3EF65D7E37357C1B41BFC /* Sources */,
+				94B90B8523D73B94666741ECCC7877A8 /* Frameworks */,
+				109B654BADB9CBF97AA6AC46ADA8D48F /* Resources */,
+				B37A34DE57851C8F3E20055518E260F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3676F7B81BD484DEA8C4B141E076C6F3 /* PBXTargetDependency */,
+			);
+			name = TTKeyboardphobia;
+			productName = TTKeyboardphobia;
+			productReference = 1FBA94B1CFC8D16FBC6C980950F1A98C /* TTKeyboardphobia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D38E92FBBEDE697721485913C504DCE6 /* Pods-TTKeyboardphobia_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472065645E060C9C5F9DBC8900A4337B /* Build configuration list for PBXNativeTarget "Pods-TTKeyboardphobia_Tests" */;
+			buildPhases = (
+				DC8F667C904BF969B7424B67223C461D /* Sources */,
+				4CCE1D357FD61B8B17EA4F0C0F15A523 /* Frameworks */,
+				E025DC4A9A53386595B24EBB857E7185 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D717F82F74884C26A295A28556F8CFA4 /* PBXTargetDependency */,
+				5ECCD8686A10B0D429EEB4B2A8862A2E /* PBXTargetDependency */,
+				A730917CA0303C1C9E2247E0DBFA4BE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTKeyboardphobia_Tests";
+			productName = "Pods-TTKeyboardphobia_Tests";
+			productReference = 5731A9FE31B4F7E269F3E46977D0FE4B /* Pods_TTKeyboardphobia_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB2B31273794509A14C61C1A38F6B407 /* Pods-TTKeyboardphobia_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45A236A2EB11255A755EB4A660481F /* Build configuration list for PBXNativeTarget "Pods-TTKeyboardphobia_Example" */;
+			buildPhases = (
+				66B9B1D9701BD192DC3D96D24330083D /* Sources */,
+				EAB2914961C262E52E76D43D538565F7 /* Frameworks */,
+				039762999973AC3A2AEE6FE6D3A8DA12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB606EDB6D4DA514DE71571B54D9E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTKeyboardphobia_Example";
+			productName = "Pods-TTKeyboardphobia_Example";
+			productReference = AD7A913E3F6A1298E701B24558FCEECD /* Pods_TTKeyboardphobia_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E126D04DD81B5B4D47F1A4D0D71180C /* FBSnapshotTestCase */,
+				7F0B75697E11568633D8239E46E26C06 /* KIF */,
+				FB2B31273794509A14C61C1A38F6B407 /* Pods-TTKeyboardphobia_Example */,
+				D38E92FBBEDE697721485913C504DCE6 /* Pods-TTKeyboardphobia_Tests */,
+				98BB9F7C9E99F61D3002E5F8912034CF /* TTKeyboardphobia */,
+				588C4E167F411033231F59E16043BA75 /* TTKeyboardphobia-TTKeyboardphobia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109B654BADB9CBF97AA6AC46ADA8D48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF6EADEA67D078EB688A7C53DC4C448 /* TTKeyboardphobia.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7574F4A1E8A4488E357AAE5B2F9B088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		597865DBA3C3EF65D7E37357C1B41BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2230849A8E917BEC42E76291AC348CCF /* ReplaceMe.m in Sources */,
+				53F4FC739FC81AB8201D0F3E3EF0B095 /* TTKeyboardphobia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B9B1D9701BD192DC3D96D24330083D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBBF81CE6526B3D6FB006C084C60432 /* Pods-TTKeyboardphobia_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEA7E87D4DE9D891011A4F1324EE685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D148DC8D61D0A95127EC1EEF3D203DAE /* FBSnapshotTestCase-dummy.m in Sources */,
+				2BD41185748CCBA4C86529BE8B377000 /* FBSnapshotTestCase.m in Sources */,
+				0274B2D35BF4979CEC5C6E196CF8389E /* FBSnapshotTestCasePlatform.m in Sources */,
+				1888219459E7ABEEA22EFF68C50A7E07 /* FBSnapshotTestController.m in Sources */,
+				86F42CF6319302F461318E6706471282 /* SwiftSupport.swift in Sources */,
+				2B099B268A8449A2368087D0201A1A70 /* UIImage+Compare.m in Sources */,
+				32A85ACC5ABDBB77AA4418C538E0C876 /* UIImage+Diff.m in Sources */,
+				B0170E06045EAD036A9DBE685343888D /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3D6A6BD141C14A597975037A0F881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011B133E785B655F57A5FE578974DB1E /* CGGeometry-KIFAdditions.m in Sources */,
+				F06A0DA77659FDF68017E333B8909DF1 /* KIF-dummy.m in Sources */,
+				321CCECDECEA619062ABAD633B03614F /* KIFSystemTestActor.m in Sources */,
+				5384CB8245DF25516BE5B61FFBCAEDEF /* KIFTestActor.m in Sources */,
+				06D54187DDC3B3968F85933E828531CA /* KIFTestCase.m in Sources */,
+				E77441EA6B2D60E5C19CE73B15331060 /* KIFTestStepValidation.m in Sources */,
+				7BB3C60E357ECA964313EF617264E9FF /* KIFTypist.m in Sources */,
+				A45610FF33EC4D2CFBDCE58F8B772790 /* KIFUITestActor-ConditionalTests.m in Sources */,
+				EF0D1E156B80DCB80E6570528719590A /* KIFUITestActor.m in Sources */,
+				C8E5EE68E0FFBEF0209FAC15AB1A6919 /* NSBundle-KIFAdditions.m in Sources */,
+				B7BADAB3E48E8B9E8C957A4DAA6CAECF /* NSError-KIFAdditions.m in Sources */,
+				3BE945E9A6B83A8DD7198F03514E1B54 /* NSException-KIFAdditions.m in Sources */,
+				C794DB2C2A43E566D468C309175818B6 /* NSFileManager-KIFAdditions.m in Sources */,
+				DC5496F97AE94EB821920F49ED62A750 /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				E15EFD090D91C95543EB47C45365AF75 /* UIApplication-KIFAdditions.m in Sources */,
+				262E99376F793DA6E8623953E590CB26 /* UIAutomationHelper.m in Sources */,
+				184316B3E291AE1B61FD0332B57589C4 /* UIEvent+KIFAdditions.m in Sources */,
+				F2FD0E424A98513772FC79D306B4771F /* UIScrollView-KIFAdditions.m in Sources */,
+				80FCFF63BDFF4368B27847E7A98A1EBB /* UITableView-KIFAdditions.m in Sources */,
+				CB40135215980D073D7CA7A5C4988690 /* UITouch-KIFAdditions.m in Sources */,
+				C0F0EB6D879AF0EAFE2A921BF57E4917 /* UIView-Debugging.m in Sources */,
+				3A3B44B28F35EE74681F9F6B2A912ED3 /* UIView-KIFAdditions.m in Sources */,
+				97598FB4A966D8D47B2E7B32C49284C5 /* UIWindow-KIFAdditions.m in Sources */,
+				6017FFB90CACCC9B242FB084D6AB6175 /* XCTestCase-KIFAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8F667C904BF969B7424B67223C461D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142A99F550356C7B7060E58044E55ECA /* Pods-TTKeyboardphobia_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1E529C7B39EEF87F8B290A4BF4D726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3676F7B81BD484DEA8C4B141E076C6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTKeyboardphobia-TTKeyboardphobia";
+			target = 588C4E167F411033231F59E16043BA75 /* TTKeyboardphobia-TTKeyboardphobia */;
+			targetProxy = 0804D344E894360627020DA761C5B17E /* PBXContainerItemProxy */;
+		};
+		42EB606EDB6D4DA514DE71571B54D9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTKeyboardphobia;
+			target = 98BB9F7C9E99F61D3002E5F8912034CF /* TTKeyboardphobia */;
+			targetProxy = FD272C0847F0BFDB248952ED44F31D31 /* PBXContainerItemProxy */;
+		};
+		5ECCD8686A10B0D429EEB4B2A8862A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			target = 7F0B75697E11568633D8239E46E26C06 /* KIF */;
+			targetProxy = 8DEB9EF95B154553821ABE4E24D7CDB4 /* PBXContainerItemProxy */;
+		};
+		A730917CA0303C1C9E2247E0DBFA4BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTKeyboardphobia;
+			target = 98BB9F7C9E99F61D3002E5F8912034CF /* TTKeyboardphobia */;
+			targetProxy = 3DA78B03AC0F43DAAF22327CF4653D06 /* PBXContainerItemProxy */;
+		};
+		D717F82F74884C26A295A28556F8CFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 5E126D04DD81B5B4D47F1A4D0D71180C /* FBSnapshotTestCase */;
+			targetProxy = 8ED08BC91960C413E6D4BE935CB7A9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31D7ED57661C5E7C598D732853869599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0C48EDB58DA2A50B5294A30FCA7351 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A6A363472510F9FB8398E2FDF531615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TTKeyboardphobia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3BE9ACBB2AB51133803C6C814F05D2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45000728709D06F3424CBB2CDF56A8B3 /* Pods-TTKeyboardphobia_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTKeyboardphobia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TTKeyboardphobia_Example/Pods-TTKeyboardphobia_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TTKeyboardphobia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E73568B264AFA4622274DF19BE15637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CEE8F67F555A94991D8B1DDF2BF478 /* KIF-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.2.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KIF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66DBB5B769E8139BAE7C9D9FBDB2609B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTKeyboardphobia/TTKeyboardphobia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTKeyboardphobia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTKeyboardphobia/TTKeyboardphobia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTKeyboardphobia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F78F83610E3EFC1479D8296DA0F27A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2AA9FFA44B59B5D3EEC1F596B3BA9B /* Pods-TTKeyboardphobia_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTKeyboardphobia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TTKeyboardphobia_Tests/Pods-TTKeyboardphobia_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TTKeyboardphobia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86DC7A8563A83F232FC493110396879F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0C48EDB58DA2A50B5294A30FCA7351 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB08C144A2413ECF3C4DD00F76AE2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4E5C5342FDC492689C20888F7648D7 /* Pods-TTKeyboardphobia_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTKeyboardphobia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TTKeyboardphobia_Example/Pods-TTKeyboardphobia_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TTKeyboardphobia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B751B5CFE048C615094EE861B4832089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CEE8F67F555A94991D8B1DDF2BF478 /* KIF-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.2.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KIF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD4B8F95BC41B51CE0C118A644192921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TTKeyboardphobia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D0434889BF36BECB3CD6565E08A2D9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D621F878D56B44DA28A0B776806E15D /* TTKeyboardphobia-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTKeyboardphobia/TTKeyboardphobia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTKeyboardphobia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTKeyboardphobia/TTKeyboardphobia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTKeyboardphobia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9361E4807E9914533396166B3124D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC0F8CEEA0FE887FBF0DD616B064F30 /* Pods-TTKeyboardphobia_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTKeyboardphobia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TTKeyboardphobia_Tests/Pods-TTKeyboardphobia_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TTKeyboardphobia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264F591BDFD5AFF50A6540D52EFD0D84 /* Build configuration list for PBXNativeTarget "TTKeyboardphobia-TTKeyboardphobia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6A363472510F9FB8398E2FDF531615 /* Debug */,
+				CD4B8F95BC41B51CE0C118A644192921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5709F6BFE37F035269D7F4D2D55A75 /* Build configuration list for PBXNativeTarget "KIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E73568B264AFA4622274DF19BE15637 /* Debug */,
+				B751B5CFE048C615094EE861B4832089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445E69FF026DF7F39A776EBA8D870C9D /* Build configuration list for PBXNativeTarget "TTKeyboardphobia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DBB5B769E8139BAE7C9D9FBDB2609B /* Debug */,
+				D0434889BF36BECB3CD6565E08A2D9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472065645E060C9C5F9DBC8900A4337B /* Build configuration list for PBXNativeTarget "Pods-TTKeyboardphobia_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9361E4807E9914533396166B3124D18 /* Debug */,
+				6F78F83610E3EFC1479D8296DA0F27A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8BB323DAB71F60D76748F4B5ACAAA9D /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DC7A8563A83F232FC493110396879F /* Debug */,
+				31D7ED57661C5E7C598D732853869599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF45A236A2EB11255A755EB4A660481F /* Build configuration list for PBXNativeTarget "Pods-TTKeyboardphobia_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB08C144A2413ECF3C4DD00F76AE2B0 /* Debug */,
+				3BE9ACBB2AB51133803C6C814F05D2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
