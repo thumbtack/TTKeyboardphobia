@@ -2,14 +2,18 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
+env:
+  matrix:
+   - OS=8.4 NAME='iPhone 6'
+
 language: objective-c
-# cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+cache: cocoapods
+podfile: Example/Podfile
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
+- pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/TTKeyboardphobia.xcworkspace -scheme TTKeyboardphobia-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-- pod lib lint --quick
+- set -o pipefail && xcodebuild test -workspace Example/TTKeyboardphobia.xcworkspace -scheme TTKeyboardphobia-Example -sdk iphonesimulator -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=NO GCC_TREAT_WARNINGS_AS_ERRORS=YES | xcpretty -c
+- pod lib lint --allow-warnings
