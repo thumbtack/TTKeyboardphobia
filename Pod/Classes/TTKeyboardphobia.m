@@ -1,12 +1,6 @@
 #import "UIView+TTViewKeyboardAnimation.h"
 #import "TTKeyboardphobia.h"
 
-#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
-#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
-#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
-#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
-
 @interface TTKeyboardphobia ()
 @property (nonatomic, strong) NSMutableArray *views;
 @property (nonatomic, assign) CGPoint contentOffset;
@@ -218,7 +212,7 @@
             return;
         }
 
-        if (hasAccessoryView && keyboardAlreadyVisible && SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(@"8.0")) {
+        if (hasAccessoryView && keyboardAlreadyVisible) {
             // When an input becomes first responder and the keyboard is already
             // visible, the inputAccessoryView is not yet visible and scrollRectToVisible
             // is not able to correctly calculate the contentOffset.

@@ -1,12 +1,14 @@
 Pod::Spec.new do |s|
   s.name             = "TTKeyboardphobia"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TTKeyboardphobia."
+  s.summary          = "Simple keyboard avoiding for iOS."
   s.description      = <<-DESC
-                       An optional longer description of TTKeyboardphobia
+                        TTKeyboardphobia is a simple and straightforward to use library for keyboard avoidance on iOS.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        * No subclasses
+                        * Simple API.
+                        * Supports accessory views.
+                        * Supports alignment with a UIView container.
                        DESC
   s.homepage         = "https://github.com/thumbtack/TTKeyboardphobia"
   s.license          = 'BSD'

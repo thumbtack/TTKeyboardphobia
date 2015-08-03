@@ -29,7 +29,7 @@
     }
 
     self.accessoryViewArea.hidden = YES;
-    self.recordMode = YES;
+    self.recordMode = NO;
 }
 
 - (void)tearDown {

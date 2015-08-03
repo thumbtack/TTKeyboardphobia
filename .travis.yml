@@ -5,6 +5,7 @@
 env:
   matrix:
    - OS=8.4 NAME='iPhone 6'
+   - OS=8.4 NAME='iPhone 6 Plus'
 
 language: objective-c
 cache: cocoapods
