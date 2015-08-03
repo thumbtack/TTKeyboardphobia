@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CD536C91B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD536C81B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.m */; };
+		3CD536CB1B6A76E70004212E /* TTKeyboardphobiaPlaygroundController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD536CA1B6A76E70004212E /* TTKeyboardphobiaPlaygroundController.xib */; };
+		3CD536D61B6A88840004212E /* TTKeyboardphobiaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD536D41B6A88720004212E /* TTKeyboardphobiaTest.m */; };
+		3CD536DA1B6A88F90004212E /* TTSnapshotTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD536D81B6A88DC0004212E /* TTSnapshotTestHelper.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,7 +23,6 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F89E98CAF5E11167952AB7CE /* Pods_TTKeyboardphobia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4973D09AE882A5A246308B7 /* Pods_TTKeyboardphobia_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F980BD994953218C0C9FC59C /* Pods_TTKeyboardphobia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B9D2DB432D8127D817365B /* Pods_TTKeyboardphobia_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -40,6 +43,12 @@
 		01F141424A6BBEF50617C60A /* Pods-TTKeyboardphobia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTKeyboardphobia_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTKeyboardphobia_Example/Pods-TTKeyboardphobia_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0482B63C8D3CD731DE8385D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		29069DC455AE9E44ED0B31DC /* Pods-TTKeyboardphobia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTKeyboardphobia_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTKeyboardphobia_Tests/Pods-TTKeyboardphobia_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3CD536C71B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTKeyboardphobiaPlaygroundController.h; sourceTree = "<group>"; };
+		3CD536C81B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTKeyboardphobiaPlaygroundController.m; sourceTree = "<group>"; };
+		3CD536CA1B6A76E70004212E /* TTKeyboardphobiaPlaygroundController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTKeyboardphobiaPlaygroundController.xib; sourceTree = "<group>"; };
+		3CD536D41B6A88720004212E /* TTKeyboardphobiaTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTKeyboardphobiaTest.m; sourceTree = "<group>"; };
+		3CD536D71B6A88DC0004212E /* TTSnapshotTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSnapshotTestHelper.h; sourceTree = "<group>"; };
+		3CD536D81B6A88DC0004212E /* TTSnapshotTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSnapshotTestHelper.m; sourceTree = "<group>"; };
 		48B9D2DB432D8127D817365B /* Pods_TTKeyboardphobia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTKeyboardphobia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TTKeyboardphobia_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTKeyboardphobia_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,7 +67,6 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8D5AB386A7F14B638349739E /* TTKeyboardphobia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTKeyboardphobia.podspec; path = ../TTKeyboardphobia.podspec; sourceTree = "<group>"; };
@@ -148,6 +156,9 @@
 				6003F5A6195388D20070C39A /* TTViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				3CD536C71B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.h */,
+				3CD536C81B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.m */,
+				3CD536CA1B6A76E70004212E /* TTKeyboardphobiaPlaygroundController.xib */,
 			);
 			name = "Example for TTKeyboardphobia";
 			path = TTKeyboardphobia;
@@ -167,8 +178,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				3CD536D41B6A88720004212E /* TTKeyboardphobiaTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -179,6 +190,8 @@
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+				3CD536D71B6A88DC0004212E /* TTSnapshotTestHelper.h */,
+				3CD536D81B6A88DC0004212E /* TTSnapshotTestHelper.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,6 +291,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3CD536CB1B6A76E70004212E /* TTKeyboardphobiaPlaygroundController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +406,7 @@
 			files = (
 				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
+				3CD536C91B6A76B00004212E /* TTKeyboardphobiaPlaygroundController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				3CD536D61B6A88840004212E /* TTKeyboardphobiaTest.m in Sources */,
+				3CD536DA1B6A88F90004212E /* TTSnapshotTestHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA000BDDEC82673CB8FEFD87"
+               BlueprintIdentifier = "DBCB669AF2642EE46B951F7C"
                BuildableName = "TTKeyboardphobia.framework"
                BlueprintName = "TTKeyboardphobia"
                ReferencedContainer = "container:Pods.xcodeproj">
